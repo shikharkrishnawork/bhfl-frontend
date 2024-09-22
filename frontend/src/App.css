@@ -1,0 +1,104 @@
+/* General styling for the app container */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Styling for the main heading */
+h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Styling for the text area input */
+textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  margin-bottom: 20px;
+  resize: vertical; /* Allows vertical resizing */
+  background-color: #f0f8ff; /* Soft background */
+}
+
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #e6f2ff;
+}
+
+/* Styling for the submit button */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for error messages */
+.error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/* Styling for the response section */
+.response-section {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Dropdown for select options */
+.css-yk16xz-control {
+  border: 2px solid #007bff !important;
+  box-shadow: none !important;
+}
+
+.css-1wa3eu0-placeholder {
+  color: #666;
+}
+
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.css-1hb7zxy-IndicatorsContainer {
+  color: #007bff;
+}
+
+/* Styling for formatted response JSON */
+.response-output {
+  text-align: left;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+  font-size: 0.9em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
